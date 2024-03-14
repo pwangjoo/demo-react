@@ -1,5 +1,6 @@
 # README.md
 React starting guide for MacOS (M1).
+<br />Result of this page can be seen [here](https://pwangjoo.github.io/demo-react/).
 
 ## Preparation
 ### 1. Using `nvm`
