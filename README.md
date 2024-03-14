@@ -67,3 +67,7 @@ React starting guide for MacOS (M1).
         "deploy": "gh-pages -d dist"
       }
     }
+1. Deploy to GitHub Pages.
+    ```zsh
+    % npm run deploy
+    ```
