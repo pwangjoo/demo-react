@@ -44,3 +44,10 @@ React starting guide for MacOS (M1).
 
 % pm2 start npm --name [NAME] --time -- run prod
 ```
+
+## Post Installation
+### 1. Useful Packages
+1. Production
+    * Router: `react-router-dom`
+    * Helmet: `react-helmet`
+    * Swiper: `swiper`
