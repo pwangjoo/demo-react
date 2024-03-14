@@ -51,3 +51,18 @@ React starting guide for MacOS (M1).
     * Router: `react-router-dom`
     * Helmet: `react-helmet`
     * Swiper: `swiper`
+
+### 2. Deploying GitHub Pages
+1. Install packages.
+    ```zsh
+    % npm i -D gh-pages
+    ```
+1. Modify `package.json`.
+    ```json
+    {
+      "homepage": "https://[USERNAME].github.io/[APPNAME]",
+      "scripts": {
+        ...
+        "deploy": "gh-pages -d dist"
+      }
+    }

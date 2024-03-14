@@ -1,5 +1,6 @@
 {
   "name": "demo-react",
+  "homepage": "https://pwangjoo.github.io/demo-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,7 +26,8 @@
   "scripts": {
     "start": "PORT=$npm_package_config_port react-scripts start",
     "build": "BUILD_PATH='./dist' react-scripts build",
-    "prod": "npx serve -s dist -l $npm_package_config_port -L -n"
+    "prod": "npx serve -s dist -l $npm_package_config_port -L -n",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
